@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'problem1' in project 'problem1' (no dependencies)

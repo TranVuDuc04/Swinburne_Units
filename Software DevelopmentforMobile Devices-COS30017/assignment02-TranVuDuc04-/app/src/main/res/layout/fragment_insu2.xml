@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <!-- com.example.musicrenting.Instrument Picture -->
+    <ImageView
+        android:id="@+id/instrumentImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="Image des"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIANO"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:layout_marginTop="5dp" />
+
+    <RadioGroup
+        android:id="@+id/colorGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/round">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Color: "
+            android:textSize="20sp"
+            android:textColor="#1d2731"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/colorBlack"
+            android:background="#4b484b"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_gravity="center" />
+
+        <RadioButton
+            android:id="@+id/colorBlue"
+            android:background="@drawable/border_button"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_gravity="center" />
+
+        <RadioButton
+            android:id="@+id/colorCream"
+            android:background="#964B00"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:layout_gravity="center"/>
+    </RadioGroup>
+
+    <!-- Quantity Picker -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <!-- Label for Quantity -->
+        <TextView
+            android:id="@+id/quantityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity: 0"
+            android:textSize="18sp"
+            android:textColor="#222"
+            android:layout_marginBottom="8dp" />
+
+        <!-- SeekBar for quantity selection -->
+        <SeekBar
+            android:id="@+id/quantitySeekBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progressBackgroundTint="#222"
+            android:thumbTint="#222"
+            android:progress="0" />
+
+    </LinearLayout>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $0"
+        android:textSize="16sp"
+        android:textColor="#222"
+        android:layout_marginTop="0dp" />
+
+    <!-- Rating -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="0.5"
+        android:layout_marginTop="16dp"
+        android:progressTint="#ffcb05"
+        android:progressBackgroundTint="#222" />
+
+</LinearLayout>

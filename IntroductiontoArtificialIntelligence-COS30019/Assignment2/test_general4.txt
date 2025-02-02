@@ -1,0 +1,4 @@
+TELL
+P => (Q & R) => S;
+ASK
+P => ((Q & R) => S)

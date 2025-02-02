@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for Emoji -->
+    <ImageView
+        android:id="@+id/ivEmoji"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/happy_emoji"
+        android:layout_gravity="center"
+        android:contentDescription="Emoji Image"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbGood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good" />
+        <RadioButton
+            android:id="@+id/rbBad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bad" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvFunctionQuality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Function Quality: 3.0"
+        android:layout_marginTop="16dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBarFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="3.0"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/tvDesignRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design Rating: 5 out of 10"
+        android:layout_marginTop="16dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="5" />
+
+    <Button
+        android:id="@+id/btnSubmitFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="end" />
+
+</LinearLayout>

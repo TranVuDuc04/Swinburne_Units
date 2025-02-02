@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ADD8E6">
+
+    <!-- ConstraintLayout for Borrow and Booking in the same horizontal row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <!-- Borrow TextView -->
+        <TextView
+            android:id="@+id/textViewBorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Instruments"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="#0b3c5d"
+            android:textColor="#f2f2f2"
+            android:gravity="center"/>
+
+        <!-- Booking TextView -->
+        <TextView
+            android:id="@+id/textViewBooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="#0b3c5d"
+            android:textColor="#f2f2f2"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- Container for Fragment Buttons -->
+    <LinearLayout
+        android:id="@+id/fragmentButtonsContainer"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonFragment1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:background="@android:color/transparent"
+            android:text="Guitar" />
+
+        <Button
+            android:id="@+id/buttonFragment2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:background="@android:color/transparent"
+            android:text="Piano" />
+
+        <Button
+            android:id="@+id/buttonFragment3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:background="@android:color/transparent"
+            android:text="Trumpet" />
+
+    </LinearLayout>
+
+    <!-- Fragment Container -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.example.musicrenting.Insu1" />
+
+    <Button
+        android:id="@+id/borrowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Borrow"
+        android:textColor="@android:color/black"
+        android:backgroundTint="#ffcb05"/>
+
+</LinearLayout>

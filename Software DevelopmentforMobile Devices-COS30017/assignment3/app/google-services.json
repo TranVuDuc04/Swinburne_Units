@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "36622994599",
+    "firebase_url": "https://moneyshare-e2a0f-default-rtdb.firebaseio.com",
+    "project_id": "moneyshare-e2a0f",
+    "storage_bucket": "moneyshare-e2a0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36622994599:android:4d774d54d8b51581391f82",
+        "android_client_info": {
+          "package_name": "com.example.moneyshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkgHRwk-u-uBruAhFZbBYcGfwdmCj9Bx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36622994599:android:a332f3cca6e07b18391f82",
+        "android_client_info": {
+          "package_name": "com.example.spiltmoney"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkgHRwk-u-uBruAhFZbBYcGfwdmCj9Bx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

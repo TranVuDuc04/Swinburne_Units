@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E7A94">
+
+    <TextView
+        android:id="@+id/creditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Available Credit: $500"
+        android:textColor="#f2f2f2"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/instrumentImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/g1"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+
+    <!-- Instrument Details -->
+    <TextView
+        android:id="@+id/instrumentDetails"
+        android:textColor="#f2f2f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instrument details will appear here"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Quantity Label -->
+    <TextView
+        android:id="@+id/quantityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity: 0"
+        android:textColor="#f2f2f2"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <SeekBar
+        android:id="@+id/quantitySeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progressBackgroundTint="#f2f2f2"
+        android:thumbTint="#f2f2f2"
+        android:max="10" />
+
+    <RadioGroup
+        android:id="@+id/conditionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioNew"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:checked="true"
+            android:text="New"
+            android:textColor="#1d2731" />
+
+        <RadioButton
+            android:id="@+id/radioLikeNew"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:text="Like-New"
+            android:textColor="#1d2731" />
+
+    </RadioGroup>
+    <!-- Price TextView -->
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price: $0"
+        android:textColor="#f2f2f2"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffcb05"
+        android:textColor="#1d2731"
+        android:text="Save" />
+
+</LinearLayout>

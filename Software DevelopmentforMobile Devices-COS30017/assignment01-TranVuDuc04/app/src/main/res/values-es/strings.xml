@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PuntuaciónLocalEscalada</string>
+    <string name="score_text">Puntuación: 0</string>
+    <string name="hold_text">Agarre: 0</string>
+    <string name="reset_button_text">Reiniciar</string>
+    <string name="fall_button_text">Caída</string>
+    <string name="climb_button_text">Escalar</string>
+    <string name="picture_description"> </string>
+    <string name="scores_text">PUNTUACIÓN: %1$d</string>
+    <string name="holds_text">AGARRES: %1$d</string>
+    <string name="winner_text">PUNTUACIÓN: %1$d!</string>
+    <string name="fell_text">PUNTUACIÓN: %1$d Te caíste</string>
+    <string name="highest_hold_text">¡Tu agarre más alto es %1$d!</string>
+    <string name="change_language">Cambiar Idioma</string>
+</resources>

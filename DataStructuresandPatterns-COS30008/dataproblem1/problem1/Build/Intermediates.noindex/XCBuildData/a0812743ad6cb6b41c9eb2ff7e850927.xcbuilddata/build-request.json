@@ -1,0 +1,56 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "d67da28524ebf2f5444f89cd112f8a1ae1e020c096c2c0c5f919bdd562857fa1"
+    }
+  ],
+  "containerPath" : "/Users/dylantran/Desktop/dataasm1/problem1/problem1.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/dylantran/Desktop/dataasm1/problem1/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/dylantran/Desktop/dataasm1/problem1/Build/Products",
+      "derivedDataPath" : "/Users/dylantran/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dylantran/Library/Developer/Xcode/DerivedData/problem1-dqzvogiqtzmuatczivqsdozsleaj/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dylantran/Library/Developer/Xcode/DerivedData/problem1-dqzvogiqtzmuatczivqsdozsleaj/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/dylantran/Desktop/dataasm1/problem1/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,56 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "b775f5cd4cb39758ee6f67b37d4136e798da3accd902959f29ea6bcd8e38671a"
+    }
+  ],
+  "containerPath" : "/Users/dylantran/Desktop/data_structure/lab3/tutorial3/tutorial3.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/dylantran/Desktop/data_structure/lab3/tutorial3/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/dylantran/Desktop/data_structure/lab3/tutorial3/Build/Products",
+      "derivedDataPath" : "/Users/dylantran/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dylantran/Library/Developer/Xcode/DerivedData/tutorial3-eguspyayrcqjuqcwrhuvoeinqlph/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dylantran/Library/Developer/Xcode/DerivedData/tutorial3-eguspyayrcqjuqcwrhuvoeinqlph/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/dylantran/Desktop/data_structure/lab3/tutorial3/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

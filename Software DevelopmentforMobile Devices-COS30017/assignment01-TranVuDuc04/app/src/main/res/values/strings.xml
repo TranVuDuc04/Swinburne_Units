@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LocalClimbingScore</string>
+    <string name="score_text">Score: 0</string>
+    <string name="hold_text">Hold: 0</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="fall_button_text">Fall</string>
+    <string name="climb_button_text">Climb</string>
+    <string name="picture_description"> </string>
+    <string name="change_language">Change Language</string>
+    <string name="scores_text">SCORE: %1$d</string>
+    <string name="holds_text">HOLDS: %1$d</string>
+    <string name="winner_text">SCORE: %1$d!</string>
+    <string name="fell_text">SCORE: %1$d You fell</string>
+    <string name="highest_hold_text">Your highest hold is %1$d!</string>
+</resources>
